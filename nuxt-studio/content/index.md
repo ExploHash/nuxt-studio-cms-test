@@ -1,12 +1,29 @@
-# Nuxt Content
+# Homes
 
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
+::hero
 ---
+button-text: Laten wij beginnen
+image-src: https://tse2.mm.bing.net/th?id=OIP.XFvgjrUne5hvG2AZFEjjzgHaEK&pid=Api
+subtitle: Dit is een subtitle
+title: Welkom bij de nuxt studio test
+---
+::
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+::feature-list
+  :::feature{description="Werkt wel lekker" title="Live preview"}
+  :::
 
-::feature{name="asK"}
+  :::feature{description="Beetje questionable soms" title="Local tunnel"}
+  :::
+
+  :::feature{description="Wat cool hoor" title="Direct vue components"}
+  :::
+::
+
+::call-to-action
+---
+button-text: Doei
+description: Je kan het
+title: Begin nu met het werken met Nuxt Studio LOL
+---
 ::
