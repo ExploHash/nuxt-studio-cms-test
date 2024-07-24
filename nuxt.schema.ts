@@ -2,27 +2,18 @@ import { field, group } from '@nuxthq/studio/theme'
 
 export default defineNuxtSchema({
   appConfig: {
-    global: group({
-      title: 'Global',
-      description: 'Global configuration',
+    parent: group({
+      title: 'UI',
+      description: 'UI configuration',
       icon: 'i-ph-palette-fill',
       fields: {
-        title: field({
+        primary: field({
           type: 'string',
-          title: 'Title',
-          description: 'The title of the app',
-        })
-      }
-    }),
-    seo: group({
-      title: 'SEO',
-      description: 'SEO configuration',
-      icon: 'i-ph-seo',
-      fields: {
-        keywords: field({
-          type: 'string',
-          title: 'Keywords',
-          description: 'Keywords for SEO',
+          title: 'Primary',
+          description: 'Primary color of your UI.',
+          icon: 'i-ph-palette',
+          default: 'sky',
+          required: ['sky', 'mint', 'rose', 'amber']
         })
       }
     })
