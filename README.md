@@ -1,1 +1,0 @@
-# nuxt-studio-cms-test
