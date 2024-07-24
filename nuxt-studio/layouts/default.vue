@@ -14,7 +14,7 @@
 
     <!-- Main Content -->
     <main class="flex-grow">
-      <nuxt />
+      <slot />
     </main>
 
     <!-- Footer -->
