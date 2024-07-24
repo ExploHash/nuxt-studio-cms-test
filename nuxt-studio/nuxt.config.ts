@@ -26,5 +26,11 @@ export default defineNuxtConfig({
   // force module initialization on dev env
   studio: {
     enabled: true
-  }
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
