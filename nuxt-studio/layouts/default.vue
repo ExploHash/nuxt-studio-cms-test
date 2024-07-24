@@ -27,7 +27,20 @@
 </template>
 
 <script setup>
-/* No script setup needed for this layout */
+
+import appConfig from '~/app.config.ts';
+useHead({
+  title: appConfig?.seo?.title,
+  meta: [
+    {
+      name: 'description',
+      content: appConfig?.seo?.description
+    }
+  ],
+  bodyAttrs: {
+    style: `background-color: ${appConfig?.ui?.primaryColor}`
+  }
+});
 </script>
 
 <style scoped>
