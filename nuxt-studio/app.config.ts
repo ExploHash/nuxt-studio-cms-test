@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    primaryColor: "blue"
+    primaryColor: "green"
   },
 
   seo: {

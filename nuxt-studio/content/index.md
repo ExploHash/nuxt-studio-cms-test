@@ -1,5 +1,7 @@
 # Homes
 
+#
+
 ::hero
 ---
 button-text: Laten wij beginnen
@@ -9,7 +11,7 @@ title: Welkom bij de nuxt studio test
 ---
 ::
 
-::feature-list
+::feature-list{description="asdkjhasjkd" title="askdjdaksjd"}
   :::feature{description="Werkt wel lekker" title="Live preview"}
   :::
 
@@ -26,4 +28,7 @@ button-text: Doei
 description: Je kan het
 title: Begin nu met het werken met Nuxt Studio LOL
 ---
+::
+
+::call-to-action
 ::
